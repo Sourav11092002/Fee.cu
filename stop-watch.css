@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(1, 26, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    height: 65vh;
+}
+#container{
+    width: 470px;
+
+}
+#time{
+    color: aliceblue;
+    border: none;
+    border:2px solid white;
+    padding: 30px;
+    border-radius: 140px;
+    background-color: rgb(66, 7, 7);
+}
+.digit{
+    font-size: 75px;
+}
+.txt{
+    font-size: 15px;
+    font-weight: bolder;
+    color: rgb(238, 36, 36);
+}
+#button{
+
+    text-align:center;
+    border: none;
+    margin-top: 15px;
+}
+#start{
+    background: green;
+    color: rgb(247, 247, 248);
+}
+#stop{
+    background: rgb(242, 2, 2);
+    color: rgb(247, 247, 248);
+
+}
+#reset{
+    background: rgb(36, 36, 209);
+    color: rgb(247, 247, 248);
+   
+}
+.btn{
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 0.05cm;
+    cursor: pointer;
+}
+#name{
+    display: flex;
+   justify-content: center;
+}
+#c{
+display: flex;
+justify-content: center;
+color: rgb(240, 243, 230);
+    font-size: 15px;
+    font-style: oblique;
+}
+#lap{
+    background-color: rgb(123, 12, 138);
+    color:white;
+
+}
+.di{
+    background-color: aquamarine;
+    padding-left: 15px;
+    border: 2px solid black;
+    color:rgb(39, 6, 150);
+    border-radius: 120px;
+}
